@@ -31,6 +31,7 @@ KT-Date is ideal for environments like **Webflow**, where CMS dates are delivere
 
 ### Latest version
 ```html
+<!-- KT-Date -->
 <script src="https://cdn.jsdelivr.net/gh/weslleycabral/kt-date/dist/kt-date.min.js"></script>
 ```
 
