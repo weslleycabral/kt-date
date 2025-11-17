@@ -1,0 +1,37 @@
+{
+    "name": "kt-date",
+    "version": "1.0.0",
+    "description": "A lightweight browser library to parse, translate, and reformat dates using Day.js and the Intl API.",
+    "keywords": [
+        "date",
+        "dates",
+        "datetime",
+        "format",
+        "formatting",
+        "formatter",
+        "parser",
+        "parsing",
+        "dayjs",
+        "intl",
+        "i18n",
+        "internationalization",
+        "translate",
+        "translation",
+        "webflow",
+        "frontend",
+        "browser",
+        "js",
+        "javascript"
+    ],
+    "license": "MIT",
+    "author": "Weslley Cabral",
+    "type": "commonjs",
+    "main": " dist/kt-date.min.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "esbuild src/kt-date.js --bundle --minify --outfile=dist/kt-date.min.js"
+    },
+    "devDependencies": {
+        "esbuild": "^0.27.0"
+    }
+}
